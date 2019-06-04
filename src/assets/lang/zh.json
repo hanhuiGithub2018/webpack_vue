@@ -1,0 +1,26 @@
+
+{
+  "header":{
+    "headerSup": "帮助中心",
+    "headerDow": "APP下载",
+    "headerNew": "公告中心",
+    "headerDeal": "交易中心",
+    "headerLogin": "登录",
+    "headerRegister": "注册",
+    "headerLang": "语言选择",
+    "headerLocal": "币种折算"
+  },
+  "footer":{
+    "footerHelp": "帮助中心",
+    "footerHelpDisc": "有任何问题可以访问"
+  },
+  "login": {
+    "loginTitle": "登录UKEX",
+    "loginIptUser": "邮箱 / 手机号 / UKID",
+    "loginIptPsd": "密码",
+    "loginBtnSign": "登录",
+    "loginForgetPsd": "忘记密码?",
+    "loginRegister": "立即注册",
+    "loginRemind": "还没有账户?"
+  }
+}

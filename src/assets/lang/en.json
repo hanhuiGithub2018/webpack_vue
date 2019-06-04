@@ -1,0 +1,25 @@
+{
+  "header": {
+    "headerSup": "Support",
+    "headerDow": "Download APP",
+    "headerNew": "News",
+    "headerDeal": "Exchange",
+    "headerLogin": "Login",
+    "headerRegister": "Register",
+    "headerLang": "Language Choice",
+    "headerLocal": "Local Currency"
+  },
+  "footer": {
+    "footerHelp": "Help Center",
+    "footerHelpDisc": "If you have any questions, you can visit the"
+  },
+  "login": {
+    "loginTitle": "Sign In UKEX",
+    "loginIptUser": "Email / Phone / UKID",
+    "loginIptPsd": "Password",
+    "loginBtnSign": "Sign In",
+    "loginForgetPsd": "Forgot Password?",
+    "loginRegister": "Register Now",
+    "loginRemind": "No Account?"
+  }
+}

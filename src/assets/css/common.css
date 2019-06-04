@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/*标签小类*/
+*{  margin:0;padding:0;box-sizing:border-box;  }
+body{
+  outline: none;font-family:tahoma, Arial, "Hiragino Sans GB","microsoft yahei",
+  sans-serif;
+}
+a{text-decoration:none;color: inherit;}
+ul,li{list-style:none;}
+i{font-style: normal;}
+sup { vertical-align: text-top }
+sub { vertical-align: text-bottom }
+img{
+  max-width: 100%;
+  vertical-align:middle;
+}
+table {width: 100%;  border-collapse:collapse;  border-spacing:0;  }
+select,input,textarea{
+  outline: none;font-family:tahoma, Arial, "Hiragino Sans GB","microsoft yahei",
+  sans-serif;
+  -webkit-appearance: none; /*去除苹果手机输入框默认样式*/
+}
+fieldset,img,button{  border:none;  }
+h1,h2,h3,h4,h5,h6{font-weight: 500;}
+/*类选择器小类*/
+.fl{float:left;} .fr{float:right;}
+.clear:after{  content:"";display:block;clear:both;  }
+.dis-tab{display: table;width: 100%;}
+.dis-cell{display: table-cell;vertical-align: middle;}
+.inline-block{display: inline-block !important;}
+.block{display: block !important;}
+.rel{position: relative;}
+.abs{position: absolute;}
+.fixed{position: fixed;}
+.tc {text-align:center;}
+.tl {text-align:left;}
+.tr {text-align:right;}
+.bold{font-weight: 600;color: #696969}
+.hide{display:none !important;}
+.visible{visibility: visible !important;}
+.hidden{visibility: hidden !important;}
+
+/*color*/
+.color-dg{color:#00afc7 !important;}
+.color-fo{color:#ffb436 !important;}
+.color-o{color:#ff8300 !important;}
+.bg-w{background-color: #fff !important;}
+/*base*/
+.fs-20 {
+  font-size: 0.26667rem !important;
+}
+.fs-22 {
+  font-size: 0.29333rem !important;
+}
+
+.fs-24 {
+  font-size: 0.32rem !important;
+}
+.fs-26 {
+  font-size: 0.34667rem !important;
+}
+
+.fs-28 {
+  font-size: 0.37333rem !important;
+}
+
+.fs-30 {
+  font-size: 0.4rem !important;
+}
+
+.fs-32 {
+  font-size: 0.42667rem !important;
+}
+
+.fs-34 {
+  font-size: 0.45333rem !important;
+}
+
+.fs-36 {
+  font-size: 0.48rem !important;
+}
+
+.fs-40 {
+  font-size: 0.53333rem !important;
+}
+
+.fs-48 {
+  font-size: 0.64rem !important;
+}
+
+.fs-56 {
+  font-size: 0.74667rem !important;
+}
+
+.fs-80 {
+  font-size: 1.06667rem !important;
+}
+
+.mgt-0 {
+  margin-top: 0 !important;
+}
+.mgt-5 {
+  margin-top: 0.066667rem;
+}
+.mgt-10 {
+  margin-top: 0.13333rem;
+}
+
+.mgt-15 {
+  margin-top: 0.2rem !important;
+}
+
+.mgt-20 {
+  margin-top: 0.26667rem !important;
+}
+
+.mgt-25 {
+  margin-top: 0.33333rem;
+}
+
+.mgt-30 {
+  margin-top: 0.4rem;
+}
+.mgt-35 {
+  margin-top: 0.466667rem;
+}
+.mgt-40 {
+  margin-top: 0.53333rem;
+}
+
+.mgt-50 {
+  margin-top: 0.66667rem;
+}
+
+.mgt-60 {
+  margin-top: 0.8rem;
+}
+.mgt-70 {
+  margin-top: 1rem;
+}
+.mgb-0 {
+  margin-bottom: 0 !important;
+}
+.mgb-10 {
+    margin-bottom: 0.13333rem;
+}
+.mgb-15 {
+    margin-bottom: 0.2rem;
+}
+.mgb-20 {
+  margin-bottom: 0.26667rem;
+}
+
+.mgb-240 {
+  margin-bottom: 3.2rem;
+}
+
+.mgr-10 {
+  margin-right: 0.13333rem;
+}
+
+.mgr-15 {
+  margin-right: 0.2rem;
+}
+
+.mgr-20 {
+  margin-right: 0.26667rem;
+}
+.mgr-30 {
+  margin-right: 0.4rem;
+}
+.mgr-40 {
+  margin-right: 0.53333rem;
+}
+.mgr-50 {
+  margin-right: 0.66667rem;
+}
+.mgr-100 {
+  margin-right: 1.33333rem !important;
+}
+.mgl-0 {
+  margin-left: 0 !important;
+}
+.mgl-10 {
+  margin-left: 0.13333rem;
+}
+.mgl-20 {
+  margin-left: 0.26667rem !important;
+}
+
+.mgl-30 {
+  margin-left: 0.4rem;
+}
+
+.mgl-50 {
+  margin-left: 0.66667rem;
+}
+
+.mglr-30 {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+.pdt-0 {
+  padding-top: 0 !important;
+}
+.pdt-40 {
+  padding-top: 0.53333rem !important;
+}
+.pdb-0 {
+  padding-bottom: 0 !important;
+}
+.pdlr-30 {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.pdlr-40 {
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+}
+
+.pdlr-50 {
+  padding-left: 0.66667rem;
+  padding-right: 0.66667rem;
+}
+
+.pd-0 {
+  padding: 0 !important;
+}
+
+.pd-20 {
+  padding: 0.26667rem;
+}
+
+.pd-30 {
+  padding: 0.4rem;
+}
+
+.pd-40 {
+  padding: 0.53333rem;
+}
+
+.pd-50 {
+  padding: 0.66667rem;
+}
+
+.pdt-30 {
+  padding-top: 0.4rem !important;
+}
+
+.pdl-20 {
+  padding-left: 0.26667rem !important;
+}
+.pdl-45 {
+  padding-left: 0.6rem;
+}
+.pdr-20 {
+  padding-right: 0.26667rem;
+}
+.pdr-40 {
+  padding-right: 0.53333rem !important;
+}
+.pdr-50 {
+  padding-right: 0.66667rem !important;
+}
+.pdr-80 {
+  padding-right: 0.96667rem !important;
+}
+.pdb-0 {
+  padding-bottom: 0 !important;
+}
+
+.pdb-30 {
+  padding-bottom: 0.4rem !important;
+}
+
