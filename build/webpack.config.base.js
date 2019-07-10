@@ -1,19 +1,29 @@
+/**
+ *
+ *  webpack 共享配置
+ *
+ * */
+
 'use strict';
 const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');//这个东西就是自动加载打包的Js到index.html里面
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 function resolve (dir) {
     return path.join(__dirname, '..', dir)
 }
 
 module.exports = {
+    entry: path.join(__dirname,'../src/main.js'),
+    output: {
+        filename: 'main.js',
+        path: path.join(__dirname,'../dist')
+    },
     resolve: {
-        //要是没得这个东西，入口文件的 .vue 不会给你自动查找滴，然后渲染也必须自己写 render 函数(虽然不是好麻烦，但是能省则省)
         extensions: ['.js', '.vue', '.json'],
         alias: {
-            'vue$': 'vue/dist/vue.esm.js',
+            'vue$': 'vue/dist/vue.esm.js',//完整版使用
             '@': resolve('src'),
             'static': resolve('static'),
             'com': resolve('src/common'),
@@ -51,7 +61,10 @@ module.exports = {
     plugins: [
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
-            template: path.join(__dirname, '../index.html')
+            template: path.join(__dirname, '../index.html'),
+            minify: {
+                removeAttributeQuotes: true
+            }
         }),
         new CleanWebpackPlugin()
     ]
